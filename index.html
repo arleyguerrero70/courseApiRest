@@ -8,10 +8,38 @@
 </head>
 <body>
     <h1>Hola APIS</h1>
-    <img class="imgDogApi" alt="">
-    <button class="changeImgDog" >Cuál será mi siguiente Perrihijo</button>
 
+    <span id="errorAPI"></span>
+
+    <section id="ramdonDogs">
+        <h2>Perritus Aleatorios</h2>
+        <article>
+            <img id="imgDog1" class="imgDogApi" width="300" height="300" alt="">
+            <button>Amé a este perritu</button>
+        </article>
+
+        <article>
+            <img id="imgDog2" class="imgDogApi" width="300" height="300" alt="">
+            <button>Amé a este perritu</button>
+        </article>
+
+        <article>
+            <img id="imgDog3" class="imgDogApi" width="300" height="300" alt="">
+            <button>Amé a este perritu</button>
+        </article>
+
+        <button class="changeImgDog" onclick="assignImgDog()" >Cuál será mi siguiente Perrihijo</button>
+    </section>
+
+    <section id="favoritesDogs">
+        <h2>Mis Perritus favoritus</h2>
+        <article>
+            <img id="imgDog3" class="imgDogApi" width="300" height="300" alt="">
+            <button>ya no es perritu favorito</button>
+        </article>
+    </section>
 
     <script src="./main.js"></script>
+    <script src="./favoritesDog.js"></script>
 </body>
 </html>
